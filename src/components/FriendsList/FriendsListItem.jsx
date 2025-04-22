@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import css from "../FriendsList/FriendsList.module.css";
+import css from "../FriendsList/FriendsListItem.module.css";
 
-export default function FriendList({ friends }) {
+export default function FriendListItem({ friends }) {
   return (
     <ul className={clsx(css.containerList)}>
       {friends.map(({ avatar, name, isOnline, id }) => (
