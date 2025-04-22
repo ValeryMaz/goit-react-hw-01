@@ -1,0 +1,88 @@
+.containerOne {
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.container {
+  border: 3px solid #3c3c3c;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #3c3c3c;
+  margin-bottom: 25px;
+}
+
+.userName {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #3c3c3c;
+  margin-bottom: 10px;
+}
+
+.userTag {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.userLocation {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #3c3c3c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.userList {
+  border-top: 2px solid #3c3c3c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 20px;
+  background-color: bisque;
+}
+
+.userListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 120px;
+  padding: 25px;
+}
+
+.listText {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: -0.02em;
+  color: #3c3c3c;
+}

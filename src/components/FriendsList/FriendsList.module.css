@@ -1,0 +1,48 @@
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.containerList {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 10px;
+}
+
+.friendsListItem {
+  border: 2px solid #3c3c3c;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.isOnline {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: -0.02em;
+  color: #33ff36;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.isOffline {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: -0.02em;
+  color: #ff3333;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.friendsListNames {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 2;
+  letter-spacing: -0.02em;
+  color: #3c3c3c;
+  margin-bottom: 8px;
+}
