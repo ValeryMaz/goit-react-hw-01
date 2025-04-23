@@ -1,7 +1,7 @@
 import userData from "../src/userData.json";
 import Profile from "./components/Profile/Profile";
 import friends from "./FriendsList.json";
-import FriendListItem from "./components/FriendsList/FriendsListItem";
+import FriendList from "./components/FriendsList/FriendsList";
 import transactions from "./transactions.json";
 import TransactionHistory from "./components/TransactionsHistory/TransactionsHistory";
 
@@ -17,7 +17,7 @@ export default function App() {
         avatar={userData.avatar}
         stats={userData.stats}
       />
-      <FriendListItem friends={friends} />
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
   );
